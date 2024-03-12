@@ -37,17 +37,17 @@ namespace imc
                 Console.WriteLine("Seu imc é " + imc);
                 Console.WriteLine("Você está acima do peso.");
             }
-            else if (imc <=40)
+            else if (imc <=34.9)
             {
                 Console.WriteLine("Seu imc é" + imc);
                 Console.WriteLine("Você está com obesidade grau 1.");
             }
-             else if (imc <= 34.9)
+             else if (imc <= 40)
             {
                 Console.WriteLine("Seu imc é " + imc);
                 Console.WriteLine("Você está com obesidade grau 2.");
             }
-            else if (imc <= 40 )
+            else if (imc > 40 )
             {
                 Console.WriteLine("Seu imc é " + imc);
                 Console.WriteLine("Você está com obesidade grau 3.");
